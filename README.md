@@ -93,15 +93,11 @@
 ├── Yolo_train.py               # YOLO 检测训练
 ├── MedSAM_train.py             # MedSAM 微调训练
 ├── Yolo+MedSAM_train.py        # 融合推理评估主脚本
-├── merge_datasets.py           # 合并多患者数据并做严格切分
 ├── Chunked_82_Dataset.py       # 分块切分，减少连续帧泄露
-├── generate_kfold_dataset.py   # K-Fold 数据集构建
 ├── generate_charts.py          # 评估图表生成
 ├── Mask_Image.py               # 掩膜可视化
 ├── Config1.py ~ Config4.py     # 融合配置实验脚本
 ├── *.ipynb                     # 调参与实验记录
-├── 项目内容概述.md
-├── 项目总结报告.md
 └── Readme.md
 ```
 
@@ -115,8 +111,6 @@
 - 如果要进行训练或推理，需自行准备模型权重文件
 
 #### 安装依赖
-
-当前仓库还没有整理出统一的 `requirements.txt`，可以先手动安装主要依赖：
 
 ```bash
 python3 -m venv .venv
@@ -278,15 +272,11 @@ This makes the repository suitable for demos, course projects, and research pres
 ├── Yolo_train.py
 ├── MedSAM_train.py
 ├── Yolo+MedSAM_train.py
-├── merge_datasets.py
 ├── Chunked_82_Dataset.py
-├── generate_kfold_dataset.py
 ├── generate_charts.py
 ├── Mask_Image.py
 ├── Config1.py ~ Config4.py
 ├── *.ipynb
-├── 项目内容概述.md
-├── 项目总结报告.md
 └── Readme.md
 ```
 
@@ -300,8 +290,6 @@ This makes the repository suitable for demos, course projects, and research pres
 - Prepared checkpoint files for training or inference
 
 #### Install Dependencies
-
-There is no unified `requirements.txt` yet, so you can start with:
 
 ```bash
 python3 -m venv .venv
