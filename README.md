@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-Detection-111111)
+![MedSAM](https://img.shields.io/badge/MedSAM-Detection-111111)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Inference%20API-009688?logo=fastapi&logoColor=white)
 ![Gradio](https://img.shields.io/badge/Gradio-Demo-F97316?logo=gradio&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-5C3EE8?logo=opencv&logoColor=white)
