@@ -1,0 +1,16 @@
+fastapi
+gradio
+matplotlib
+numpy
+opencv-python
+pandas
+Pillow
+python-docx
+python-multipart
+PyYAML
+requests
+segment-anything
+torch
+torchvision
+ultralytics
+uvicorn[standard]
